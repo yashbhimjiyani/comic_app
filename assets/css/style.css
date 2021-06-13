@@ -1,0 +1,68 @@
+.forms {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.container {
+    width: 60%;
+    display: block;
+    margin: 40px auto;
+}
+
+.inner {
+    text-align: center;
+    font-weight: bold;
+    margin: 15px auto;
+    font-size: larger;
+}
+
+.forms{
+    border: 1px solid black;
+    padding: 5px 20px;
+}
+
+input[type=email],input[type=password] {
+    display: block;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+}
+
+label {
+    font-size: large;
+    margin: 5px;
+}
+
+input {
+    margin: 10px 0px;
+    margin-top: 3px;
+}
+
+.check {
+    margin: 5px;
+}
+
+.btn {
+    padding: 5px 15px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: large;
+    margin: 5px auto;
+}
+
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.822);
+    cursor: pointer;
+}
+
+.error,.qs{
+    color: red;
+    text-align: center;
+    margin: 2px;
+}
+.qs{
+    font-size: medium;
+}
